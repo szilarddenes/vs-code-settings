@@ -1,0 +1,197 @@
+{
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages":{
+    "javascript": "javascriptreact"
+  },
+  "terminal.external.windowsExec": "c:\\Program Files\\Git\\git-bash.exe",
+  "terminal.explorerKind": "external",
+  "liveServer.settings.CustomBrowser": "firefox",
+  "files.autoSave": "afterDelay",
+  "editor.formatOnSave": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.jsxBracketSameLine": true,
+  "prettier.singleQuote": true,
+  "prettier.arrowParens": "always",
+  "indentRainbow.errorColor": "rgba(246, 168, 0, 0.3);",
+  "indentRainbow.tabmixColor": "rgba(246, 168, 0, 0.3);",
+  "remote.SSH.configFile": "c:\\users\\szdenes\\.ssh\\config",
+  "remote.SSH.path": "c:\\Users\\szdenes\\.ssh\\",
+  "phpserver.phpPath": "D:\\munkaportal\\php\\php.exe",
+  "terminal.integrated.shell.linux": "/bin/dash",
+  "terminal.background": "#000000",
+  "terminal.foreground": "#C0C0C0",
+  "terminalCursor.background": "#C0C0C0",
+  "terminalCursor.foreground": "#C0C0C0",
+  "terminal.ansiBlack": "#000000",
+  "terminal.ansiBlue": "#0000D3",
+  "terminal.ansiBrightBlack": "#808080",
+  "terminal.ansiBrightBlue": "#0000D3",
+  "terminal.ansiBrightCyan": "#02ABEA",
+  "terminal.ansiBrightGreen": "#1FB714",
+  "terminal.ansiBrightMagenta": "#4700A5",
+  "terminal.ansiBrightRed": "#DD0907",
+  "terminal.ansiBrightWhite": "#FFFFFF",
+  "terminal.ansiBrightYellow": "#FBF305",
+  "terminal.ansiCyan": "#02ABEA",
+  "terminal.ansiGreen": "#1FB714",
+  "terminal.ansiMagenta": "#4700A5",
+  "terminal.ansiRed": "#DD0907",
+  "terminal.ansiWhite": "#C0C0C0",
+  "terminal.ansiYellow": "#FBF305",
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.postCommitCommand": "push",
+  "gaac.forceLowerCase": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.showFoldingControls": "always",
+  "editor.foldingStrategy": "indentation",
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+  "prettier.semi": false,
+  "sync.gist": "5a2ef8b2b7603d3a2a079cc9374ba514",
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontSize": 15,
+  "launch": {
+    "configurations": [
+    {
+      "args": [
+        "--extensionDevelopmentPath=${workspaceFolder}"
+      ],
+      "name": "Launch Extension",
+      "outFiles": [
+        "${workspaceFolder}/out/**/*.js"
+      ],
+      "preLaunchTask": "npm",
+      "request": "launch",
+      "type": "pwa-extensionHost"
+    },
+      {
+        "name": "Launch Chrome",
+        "request": "launch",
+        "type": "pwa-chrome",
+        "url": "http://localhost:8080",
+        "webRoot": "${workspaceFolder}"
+      },
+      {
+        "args": [
+          "--extensionDevelopmentPath=${workspaceFolder}"
+        ],
+        "name": "Launch Extension",
+        "outFiles": [
+          "${workspaceFolder}/out/**/*.js"
+        ],
+        "preLaunchTask": "npm",
+        "request": "launch",
+        "type": "pwa-extensionHost"
+      },
+
+    ]
+  },
+  "tabnine.experimentalAutoImports": true,
+  // "php.validate.executablePath": "D:\\munkaportal\\php\\php.exe",
+  "workbench.colorTheme": "Monokai +Yellow",
+  "workbench.list.automaticKeyboardNavigation": false,
+  "workbench.colorCustomizations": {
+
+  
+    //custom Monokai colors
+  "[monokai no-italic]": {
+  "sideBar.background": "#000000",    
+  },
+
+  // "activityBar.background": "#000000",
+  // "titleBar.activeBackground": "#000000",
+  // "titleBar.activeForeground": "#000000",
+
+  // "dropdown.background": "#000000",
+  // "dropdown.border":"#000000",
+  // "dropdown.foreground":"#b0fe07",
+
+  // "statusBar.background":"#000000",
+  "badge.background": "#eac700",
+  "notification.background": "#eac700",
+  "sideBar.border": "#eac700",
+  "badge.foreground": "#000",
+  "button.background": "#eac700",
+  "tab.activeBorderTop":"#eac700",
+  "activityBarBadge.background":"#eac700",
+  "progressBar.background":"#eac700",
+  "activityBarBadge.foreground":"#000",
+  "button.foreground":"#000",
+  "activityBar.foreground":"#eac700",
+  "activityBar.inactiveForeground":"#eac7009e",
+  
+ 
+  "editor.background": "#2a2929",
+  "editorCursor.foreground":"#fff500",
+    "sideBar.background": "#2a2929",
+    "terminal.background" : "#000",
+  //   "terminal.foreground" : "#00FF00",
+    // "terminal.fontFamily": "Fira Code",
+    // "terminal.integrated.fontSize": 22
+  },
+
+  "workbench.settings.openDefaultKeybindings": true,
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.size": "fit",
+  "editor.quickSuggestionsDelay": 15,
+  "editor.snippetSuggestions": "bottom",
+  "workbench.activityBar.visible": true,
+  "debug.console.fontSize": 13,
+  "terminal.integrated.fontSize": 15,
+  "terminal.fontFamily": "Fira Code",
+
+  "editor.tokenColorCustomizations": {
+    "comments": "#a9b2b2f9",
+    "variables": "#fff",
+    "keywords": "#fff500",
+    "textMateRules": [
+      {
+         "scope": ["text.html.tag"],
+         "settings": {
+            // "foreground": "#1139ec"
+         }
+      },
+      {
+        "scope": "constant",
+      "settings": {
+          "foreground": "#33f"
+      }}],
+    "functions": "#03ffaf",
+    "types": "#3bc933",
+    // "functions": "#00fc00",
+    // "keywords": "#fff500",
+    // "namespace": "#fff500",
+    // "constant": "#fff500",
+    // "punctuation": "#fff500",
+    // "strings": "#fff",
+
+},
+"workbench.preferredDarkColorTheme": "Monokai +Yellow",
+"editor.fontWeight": "330",
+"workbench.startupEditor": "newUntitledFile",
+"javascript.updateImportsOnFileMove.enabled": "always",
+"cSpell.enableFiletypes": [
+  "!plaintext"
+],
+"workbench.preferredLightColorTheme": "Andromeda Bordered",
+"bracketPairColorizer.forceIterationColorCycle": true,
+"liveServer.settings.donotVerifyTags": true,
+"vsicons.dontShowNewVersionMessage": true,
+"terminal.integrated.automationShell.windows": "",
+"terminal.integrated.profiles.windows": {
+  "C:\\Program Files\\Git\\git-bash.exe (migrated)": {
+    "path": "C:\\Program Files\\Git\\git-bash.exe",
+    "args": []
+  }
+},
+"workbench.sideBar.location": "right",
+"window.zoomLevel": -1,
+"editor.mouseWheelZoom": true
+}
